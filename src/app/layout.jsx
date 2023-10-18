@@ -1,6 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Cabecalho from '@/components/Cabecalho/cabecalho'
+import Rodape from '@/components/Rodape/Rodape'
 
 const inter = Inter({ subsets: ['latin'] })
 
