@@ -3,6 +3,25 @@
 @tailwind utilities;
 
 @layer components {
+    .card-User {
+            @apply flex flex-wrap;
+
+            & li{
+                @apply p-5 m-5 bg-red-400 w-40;
+
+                & img{
+                    @apply block m-auto;
+                }
+
+                & figcaption{
+                    @apply text-center font-bold text-xl;
+                }
+            }
+
+    }
+}
+
+@layer components {
     .menu {
         & li {
             @apply inline;
